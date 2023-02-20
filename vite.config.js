@@ -12,7 +12,7 @@ export default defineConfig({
     }
   },
 
-  base: process.env.NODE_ENV === 'production' ? '/blog/' : './',
+  base: process.env.NODE_ENV === 'production' ? '/blogv2/' : './',
   
   devServer: {
     proxy: {
